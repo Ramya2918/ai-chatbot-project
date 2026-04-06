@@ -1,0 +1,90 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": [
+        "Hello! I am your Smart Student Assistant 🤖. How can I help you today?",
+        "Hi there! Ask me anything about study, internship, or placement.",
+        "Hey! I'm here to guide you in your learning and career journey."
+      ]
+    },
+   {
+  "tag": "study",
+  "patterns": [
+    "How to study",
+    "How to study?",
+    "study tips",
+    "How to prepare exam",
+    "How to prepare for exams",
+    "How to score high",
+    "How to get good marks",
+    "Best way to study",
+    "How to concentrate on studies"
+  ],
+  "responses": [
+    "To study effectively, create a timetable, revise regularly, and practice questions.",
+    "Focus on understanding concepts, avoid distractions, and manage your time properly.",
+    "Consistency is key. Study daily and revise important topics frequently.",
+    "Break your study into small sessions and stay consistent for better results."
+  ]
+},
+    {
+  "tag": "internship",
+  "patterns": [
+    "Internship",
+    "internship",
+    "How to get internship",
+    "How to get internship?",
+    "Internship tips",
+    "How to apply internship",
+    "Where to find internship",
+    "How to get internships",
+    "Internship for students"
+  ],
+  "responses": [
+    "Apply on platforms like Internshala and LinkedIn, and build strong projects.",
+    "Improve your skills, create projects, and apply consistently for internships.",
+    "Networking and project experience can help you secure good internships.",
+    "Focus on skills, apply regularly, and keep improving your profile."
+  ]
+},
+    {
+  "tag": "placement",
+  "patterns": [
+    "Placement tips",
+    "How to get job",
+    "How to prepare for placement",
+    "How to prepare placement",
+    "Placement preparation",
+    "How to crack placement",
+    "How to prepare for placements"
+  ],
+  "responses": [
+    "To prepare for placements, focus on Data Structures and Algorithms, practice coding daily, and revise core subjects like DBMS, OS, and Computer Networks.",
+    "Start with DSA, build strong projects, and practice mock interviews to improve your confidence and problem-solving skills.",
+    "Consistency is key. Practice coding, revise important concepts, and work on communication skills for better placement success.",
+    "Make a structured plan: learn DSA, build 2-3 projects, practice aptitude, and prepare for HR interviews.",
+    "Focus on problem-solving skills, real-world projects, and clear communication to crack placements successfully."
+  ]
+},
+    {
+  "tag": "goodbye",
+  "patterns": [
+    "Bye",
+    "bye",
+    "Goodbye",
+    "See you",
+    "See you later",
+    "exit",
+    "quit",
+    "talk later"
+  ],
+  "responses": [
+    "Goodbye! All the best for your studies and career.",
+    "See you later! Keep learning and improving.",
+    "Take care! Come back anytime for help."
+  ]
+}
+  ]
+}
