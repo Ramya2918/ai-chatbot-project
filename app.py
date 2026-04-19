@@ -66,4 +66,8 @@ def chat():
     return jsonify({"response": response})
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run(host="0.0.0.0", port=10000)
+=======
+    app.run(host="0.0.0.0", port=10000)
+>>>>>>> 6b472d4359014da27a873eedaecdd6a3cfdd5beb
